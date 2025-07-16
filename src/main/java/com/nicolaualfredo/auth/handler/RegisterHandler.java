@@ -9,6 +9,7 @@ import com.nicolaualfredo.auth.model.User;
 import com.nicolaualfredo.auth.service.AuthService;
 import com.nicolaualfredo.auth.util.PasswordUtil;
 import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,11 +22,12 @@ import java.util.Map;
  *
  * @author nicolaualfredo
  */
-public class RegisterHandler {
+public class RegisterHandler implements HttpHandler {
 
     private final ObjectMapper mapper = new ObjectMapper();
     private final AuthService authService = new AuthService();
 
+    @Override
     public void handle(HttpExchange exchange) throws IOException {
         if (!exchange.getRequestMethod().equalsIgnoreCase("POST")) {
             exchange.sendResponseHeaders(405, -1); // Method Not Allowed
