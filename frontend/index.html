@@ -12,22 +12,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <h1>Java Authentication</h1>
 
-        <form id="register-form">
-            <h2>Register</h2>
-            <input type="text" id="reg-name" placeholder="Name" required>
-            <input type="email" id="reg-email" placeholder="Email" required>
-            <input type="password" id="reg-password" placeholder="Password" required>
-            <button type="submit">Register</button>
-            <p id="register-message"></p>
+        <!-- REGISTER FORM -->
+        <form id="register-form" style="margin-bottom: 30px;">
+            <div class="card">
+                <h2>Register</h2>
+                <input type="text" id="register-name" placeholder="Name" required />
+                <input type="email" id="register-email" placeholder="Email" required />
+                <input type="password" id="register-password" placeholder="Password" required />
+                <button type="submit">Register</button>
+            </div>
         </form>
 
+        <!-- LOGIN FORM -->
         <form id="login-form">
-            <h2>Login</h2>
-            <input type="email" id="login-email" placeholder="Email" required>
-            <input type="password" id="login-password" placeholder="Password" required>
-            <button type="submit">Login</button>
-            <p id="login-message"></p>
+            <div class="card">
+                <h2>Login</h2>
+                <input type="email" id="login-email" placeholder="Email" required />
+                <input type="password" id="login-password" placeholder="Password" required />
+                <button type="submit">Login</button>
+            </div>
         </form>
+
 
         <script src="script.js"></script>
     </body>
