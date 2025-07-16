@@ -1,0 +1,11 @@
+[ {
+  "username" : "Nico",
+  "email" : "nico@gmail.com",
+  "hashedPassword" : "558bb489c74920c02fa545fad9fe07e5b2013345b70f9db196f09243e75546d8",
+  "createdAt" : "2025-07-16T11:34:40.698414891"
+}, {
+  "username" : "Nicolau Alfredo",
+  "email" : "nicolau@gmail.com",
+  "hashedPassword" : "e1a218657cdbed002935f0b25c02e6b4029df50c6feab3f0b7239c7fb1c66531",
+  "createdAt" : "2025-07-16T11:35:26.534825629"
+} ]

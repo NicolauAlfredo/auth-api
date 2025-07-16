@@ -37,7 +37,7 @@ public class RegisterHandler implements HttpHandler {
         InputStream body = exchange.getRequestBody();
         Map<String, String> data = mapper.readValue(body, Map.class);
 
-        String username = data.get("username");
+        String username = data.get("name");
         String email = data.get("email");
         String password = data.get("password");
 

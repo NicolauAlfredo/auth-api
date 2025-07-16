@@ -16,19 +16,13 @@ import java.net.InetSocketAddress;
  */
 public class AuthAPI {
 
-    public static void main(String[] args) {
-        try {
-            HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
+    public static void main(String[] args) throws IOException {
+        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 
-            server.createContext("/register", new CorsHandler(new RegisterHandler()));
-            server.createContext("/login", new CorsHandler(new LoginHandler()));
+        server.createContext("/register", new CorsHandler(new RegisterHandler()));
+        server.createContext("/login", new CorsHandler(new LoginHandler()));
 
-            server.setExecutor(null);
-            server.start();
-            System.out.println("🚀Auth API running on http://localhost:8000");
-
-        } catch (IOException e) {
-            System.err.println("Failed to start server: " + e.getMessage());
-        }
+        server.start();
+        System.out.println("🔐Authentication API running on http://localhost:8000");
     }
 }

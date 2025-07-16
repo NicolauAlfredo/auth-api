@@ -3,6 +3,7 @@ com/nicolaualfredo/auth/service/AuthService.class
 com/nicolaualfredo/auth/model/User.class
 com/nicolaualfredo/auth/handler/CorsHandler.class
 com/nicolaualfredo/auth/handler/LoginHandler.class
-AuthAPI.class
+com/nicolaualfredo/auth/service/AuthService$1.class
 com/nicolaualfredo/auth/handler/RegisterHandler.class
+com/nicolaualfredo/auth/AuthAPI.class
 com/nicolaualfredo/auth/util/CorsUtil.class
