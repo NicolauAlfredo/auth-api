@@ -1,0 +1,8 @@
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/AuthAPI.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/handler/CorsHandler.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/handler/LoginHandler.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/handler/RegisterHandler.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/model/User.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/service/AuthService.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/util/CorsUtil.java
+/home/nicolaualfredo/NetBeansProjects/AuthAPI/src/main/java/com/nicolaualfredo/auth/util/PasswordUtil.java
